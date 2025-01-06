@@ -1,19 +1,142 @@
-@media all and (max-width: 1199px){
+@media all and (max-width: 1760px){
+    .contest_shape { 
+        top: 122px; 
+    }
+    .contest_tree { 
+        bottom: 48px;
+        width: 959px;
+        right: 197px;
+    }
+}
+@media all and (max-width: 1560px){
+    .contest_tree { 
+        width: 959px;
+        right: 90px;
+    }
 
+}
+@media all and (max-width: 1400px){
+    .section_title h2 {
+        font-size: 50px; 
+        line-height: 68px; 
+    }
+    .contest_left_title h3 { 
+        font-size: 46px; 
+        line-height: 50px;
+    }
+    .contest_left_title { 
+        top: 281px; 
+        width: 296px;
+    }
+    .contest_left_title h3 span {
+        margin-left: 65px;
+    }
+    .contest_right p {
+        font-size: 18px; 
+        top: 119px; 
+    }
+    .btn_1 {
+        font-size: 14px; 
+        width: 188px; 
+    }
+
+}
+
+@media all and (max-width: 1200px){
+    .section_title h2 {
+        font-size: 30px;
+        line-height: 41px;
+    }
+    .contest_shape {
+        top: 105px;
+    }
+    .contest_tree {
+        width: 681px;
+        right: 90px;
+        bottom: 109px;
+    }
+    .contest_left_title {
+        top: 224px;
+        width: 296px;
+    }
+    .contest_right p {
+        font-size: 16px;
+        top: 92px;
+        line-height: 23px;
+    }
+	
 }
 
 @media all and (max-width: 991px){
-	
+	.contest_left_title {
+        top: 375px;
+        width: 296px;
+    }
+    .contest_left a { 
+        margin: 0 auto;
+        margin-top: 104px;
+    }
+    .contest_right {
+        margin-top: 70px; 
+    }
+    .contest_right p {
+        font-size: 18px;
+        top: 151px;
+        line-height: 32px;
+    }
 }
 
 @media all and (max-width: 767px){
-	
+	.contest_left_title {
+        top: 262px;
+        width: 296px;
+    }
+    .contest_right p {
+        font-size: 16px;
+        top: 109px;
+        line-height: 25px;
+    }
 }
 
 @media all and (max-width: 575px){
-	
+	.contest_left_title {
+        top: 210px;
+        width: 231px;
+    }
+    .contest_left_title h3 {
+        font-size: 40px; 
+    }
+    .contest_right p {
+        font-size: 16px;
+        top: 109px;
+        line-height: 21px;
+    }
+    .section_title h2 {
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .contest_area {
+        padding: 40px 0; 
+    }
+    .contest_tree {
+        width: 444px;
+        right: 90px; 
+    }
 }
 
 @media all and (max-width: 450px){
-	
+	.contest_left_title h3 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .contest_left_title {
+        top: 179px;
+        width: 179px;
+    }
+    .contest_right p {
+        font-size: 14px;
+        top: 74px;
+        line-height: 17px; 
+        max-width: 126px;
+    }
 }

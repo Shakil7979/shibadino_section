@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passero+One&display=swap');
 
 html{
 	font-size: 62.5%;
@@ -22,13 +22,141 @@ ul li a,a{
 }
 /*======================  Start Page  ======================*/
 
+.contest_area{
+	padding: 80px 0;
+	position: relative;
+	background: url(../images/bg.png) no-repeat scroll center center / cover;
+}
+
+.contest_shape {
+	position: absolute;
+	left: 0;
+	top: 92px;
+	width: 100%;
+}
+
+.section_title{
+	position: relative;
+	z-index: 99;
+}
+
 .contest_shape img {
 	width: 100%;
 }
 
+.section_title h2 {
+	font-size: 70px;
+	font-weight: 400;
+	line-height: 92px;
+	letter-spacing: 0.05em;
+	text-align: center;
+	color: #fff;
+	font-family: 'Super Comic';
+}
 
 
+.contest {
+	position: relative;
+	z-index: 99;
+	margin-top: 109px;
+}
 
+.contest_right img,
+.contest_left img {
+	width: 100%;
+}
+
+.contest_right {
+	margin-top: 350px;
+	position: relative;
+}
+
+.contest_left{
+	position: relative;
+}
+
+.contest_left_title h3 {
+	color: #fff;
+	font-family: "Passero One", serif;
+	font-size: 70px;
+	font-weight: 400;
+	line-height: 75px;
+	text-align: left; 
+}
+
+.contest_left_title {
+	position: absolute;
+	top: 315px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	width: 400px;
+}
+
+.contest_left_title h3 span {
+	margin-left: 111px;
+}
+
+.contest_right p { 
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 26px;
+	letter-spacing: 1.2799999713897705px;
+	text-align: center;
+	text-underline-position: from-font;
+	text-decoration-skip-ink: none;
+	color: #4A2100;
+	font-family: "Passero One", serif;
+	width: 100%;
+	max-width: 140px;
+	position: absolute;
+	top: 152px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+
+.btn_1 { 
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 36.81px; 
+	color: #000;
+	font-family: 'Super Comic';
+	background: #fff;
+	width: 250px;
+	display: inline-block;
+	height: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 32px;
+}
+
+.btn_1:hover {
+	color: #000;
+	opacity: 0.83;
+}
+
+.contest_left a {
+	margin-top: 160px;
+	margin-left: 65px;
+}
+
+.contest_row {
+	position: relative;
+	z-index: 9999;
+}
+
+.contest_tree img {
+	width: 100%;
+}
+
+.contest_tree {
+	position: absolute;
+	bottom: 48px;
+	width: 1053px;
+	right: 301px;
+}
 
 
 /*======================  End Page  ======================*/
@@ -36,6 +164,6 @@ ul li a,a{
 
 
 /* 
-font-family: "Passion One", serif;
+font-family: "Passero One", serif;
 font-family: 'Super Comic';
  */
