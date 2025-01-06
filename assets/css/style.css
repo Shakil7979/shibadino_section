@@ -1,4 +1,4 @@
- 
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
 
 html{
 	font-size: 62.5%;
@@ -6,6 +6,7 @@ html{
 body{	
 	font-size: 1.6rem; 
 	font-weight: 400;
+	background: #0F3029;
 }
 h1,h2,h3,h4,h5,h6,p{
 	margin: 0;
@@ -21,6 +22,9 @@ ul li a,a{
 }
 /*======================  Start Page  ======================*/
 
+.contest_shape img {
+	width: 100%;
+}
 
 
 
@@ -30,3 +34,8 @@ ul li a,a{
 /*======================  End Page  ======================*/
 
 
+
+/* 
+font-family: "Passion One", serif;
+font-family: 'Super Comic';
+ */
