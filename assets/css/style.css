@@ -20,6 +20,13 @@ ul{
 ul li a,a{
 	text-decoration: none;
 }
+
+.container {
+	width: 100%;
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
 /*======================  Start Page  ======================*/
 
 .contest_area{
@@ -145,6 +152,8 @@ ul li a,a{
 .contest_row {
 	position: relative;
 	z-index: 9999;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .contest_tree img {
@@ -156,6 +165,10 @@ ul li a,a{
 	bottom: 48px;
 	width: 1053px;
 	right: 301px;
+}
+
+.col_item_6{
+	flex: 0 0 50%; 
 }
 
 

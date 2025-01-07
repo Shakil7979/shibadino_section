@@ -15,6 +15,7 @@
     }
 
 }
+
 @media all and (max-width: 1400px){
     .section_title h2 {
         font-size: 50px; 
@@ -40,6 +41,7 @@
         width: 188px; 
     }
 
+
 }
 
 @media all and (max-width: 1200px){
@@ -63,7 +65,7 @@
         font-size: 16px;
         top: 92px;
         line-height: 23px;
-    }
+    } 
 	
 }
 
@@ -84,8 +86,39 @@
         top: 151px;
         line-height: 32px;
     }
+    .contest_row {
+        flex-direction: column;
+    }
 }
 
+@media all and (min-width: 575px){
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media all and (min-width: 767px){
+    .container {
+        max-width: 720px;
+    }
+}
+@media all and (min-width: 1200px){
+    .container { 
+        max-width: 926px;   
+    }
+}
+@media all and (min-width: 1365px){
+    .container { 
+        max-width: 1086px; 
+    }
+}
+
+@media all and (min-width: 1400px){
+    .container { 
+        max-width: 1320px; 
+    } 
+}
+  
 @media all and (max-width: 767px){
 	.contest_left_title {
         top: 262px;
@@ -97,6 +130,8 @@
         line-height: 25px;
     }
 }
+
+
 
 @media all and (max-width: 575px){
 	.contest_left_title {
